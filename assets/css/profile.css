@@ -1,0 +1,111 @@
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body
+{
+
+}
+
+#top-container
+{
+    background-image: url("assets/images/pic1.jpg");
+    
+}
+#top-container img
+{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    filter: blur(1px);
+    filter: opacity(60%);
+}*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header-content
+{
+   /* top:50%;
+    margin-top: 100px;*/
+    background-image: url('../images/pic1.jpg');
+    height: inherit;
+
+}
+
+.content-text
+{
+    text-align: center;
+    /*height: inherit;*/
+}
+
+.profile
+{
+    height: inherit;
+    background-color: gray;
+}
+
+.profile-text
+{
+    text-align: center;
+}
+
+.profile-text h2
+{
+    margin-top: auto;
+}
+
+.experiences
+{
+    height: inherit;
+    background-color: #ccffff;
+
+}
+.experiences-text
+{
+    text-align: center;
+}
+
+.experiences-text hr
+{
+    color: black;
+}
+
+.abilities
+{
+    height: inherit;
+}
+
+.contact
+{
+    height: inherit;
+    background-color: #434242;
+}
+
+.contact-text
+{
+    text-align: center;
+}
